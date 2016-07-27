@@ -1,6 +1,7 @@
-/*global gzip, Base64*/
 (function () {
 
+  var gzip = require('gzip-js');
+  var Base64 = require('../vendor/base64');
   var root,
     JSONC = {},
     isNodeEnvironment,

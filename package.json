@@ -48,5 +48,8 @@
     "grunt-contrib-concat": "~0.3.0",
     "karma-junit-reporter": "~0.1.0"
   },
-  "github": "https://github.com/tcorral/JSONC"
+  "github": "https://github.com/tcorral/JSONC",
+  "dependencies": {
+    "gzip-js": "^0.3.2"
+  }
 }
